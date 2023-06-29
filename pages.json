@@ -1,0 +1,104 @@
+{
+	"lazyCodeLoading":"requiredComponents",
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/catagory/catagory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/personal/personal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "蔬果外卖",
+		"navigationBarBackgroundColor": "#f2a900",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#f2a900",
+		"list": [
+			{
+				"iconPath":"/static/images/tabBar/tab-home.png",
+				"selectedIconPath": "/static/images/tabBar/tab-home-current.png",
+				"text": "首页",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"iconPath":"/static/images/tabBar/tab-cate.png",
+				"selectedIconPath": "/static/images/tabBar/tab-cate-current.png",
+				"text": "商品分类",
+				"pagePath": "pages/catagory/catagory"
+			},
+			{
+				"iconPath":"/static/images/tabBar/tab-cart.png",
+				"selectedIconPath": "/static/images/tabBar/tab-cart-current.png",
+				"text": "购物车",
+				"pagePath": "pages/cart/cart"
+			},
+			{
+				"iconPath":"/static/images/tabBar/tab-my.png",
+				"selectedIconPath": "/static/images/tabBar/tab-my-current.png",
+				"text": "个人中心",
+				"pagePath": "pages/personal/personal"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
