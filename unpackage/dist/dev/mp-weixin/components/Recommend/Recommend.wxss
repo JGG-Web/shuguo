@@ -1,0 +1,73 @@
+.recommend .swiper {
+  height: 350rpx;
+}
+.recommend .swiper image {
+  width: 100%;
+  height: 350rpx;
+}
+.recommend .policyList {
+  display: flex;
+  margin: 10rpx 0;
+}
+.recommend .policyList .policyItem {
+  flex: 1;
+  text-align: center;
+}
+.recommend .policyList .policyItem image {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+}
+.recommend .policyList .policyItem .desc {
+  font-size: 26rpx;
+}
+.recommend .kingKongModule {
+  display: flex;
+  flex-wrap: wrap;
+}
+.recommend .kingKongModule .kingKongItem {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10rpx 0;
+}
+.recommend .kingKongModule .kingKongItem .kingKongImg {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 0 10rpx 25rpx;
+}
+.recommend .kingKongModule .kingKongItem .kingKongDesc {
+  font-size: 26rpx;
+}
+.recommend .categoryList .categoryItem {
+  margin: 10rpx 0;
+}
+.recommend .categoryList .categoryItem .categoryImg {
+  height: 370rpx;
+  width: 100%;
+}
+.recommend .categoryList .categoryItem .categoryScroll {
+  display: flex;
+  white-space: nowrap;
+  height: 300rpx;
+}
+.recommend .categoryList .categoryItem .categoryScroll .goodsItem {
+  height: 300rpx;
+  margin: 0 5rpx;
+}
+.recommend .categoryList .categoryItem .categoryScroll .goodsItem .goodsImg {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #f5f5f5;
+}
+.recommend .categoryList .categoryItem .categoryScroll .goodsItem .goodsText {
+  font-size: 26rpx;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+

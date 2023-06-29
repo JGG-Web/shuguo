@@ -1,0 +1,81 @@
+.cart {
+  background-color: #f5f5f5;
+  height: 100%;
+}
+.cart .cartList .cartItem {
+  position: relative;
+  height: 172rpx;
+  width: 100%;
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 20rpx;
+  display: flex;
+}
+.cart .cartList .cartItem .iconfont {
+  font-size: 40rpx;
+  line-height: 172rpx;
+}
+.cart .cartList .cartItem .iconfont.selected {
+  color: #dd1a21;
+}
+.cart .cartList .cartItem .goodsItem {
+  display: flex;
+}
+.cart .cartList .cartItem .goodsItem image {
+  width: 172rpx;
+  height: 172rpx;
+  background-color: #ccc;
+  margin: 0 40rpx;
+}
+.cart .cartList .cartItem .goodsItem .goodsInfo .name {
+  font-size: 26rpx;
+  margin: 10rpx;
+}
+.cart .cartList .cartItem .goodsItem .goodsInfo .price {
+  color: #ec2d1e;
+}
+.cart .cartList .cartItem .countCtrl {
+  position: absolute;
+  right: 60rpx;
+  bottom: 30rpx;
+}
+.cart .cartList .cartItem .countCtrl text {
+  border: 1px solid #ddd;
+  padding: 8rpx 28rpx;
+}
+.cart .cartList .cartItem .countCtrl text:nth-child(2) {
+  border: none;
+  border-top: 1rpx solid #ddd;
+  border-bottom: 1rpx solid #ddd;
+}
+.cart .footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-top: 1px solid #eee;
+  background-color: #fff;
+  text-align: center;
+}
+.cart .footer .iconfont.selected {
+  color: #dd1a21;
+}
+.cart .footer .btn {
+  flex: 1;
+  display: block;
+  height: 100%;
+  border-left: 1px solid #eee;
+  text-align: center;
+}
+.cart .footer .btn.order {
+  background-color: #f2a900;
+  color: #fff;
+}
+.cart .footer .btn.btnColor {
+  color: #dd1a21;
+}
+

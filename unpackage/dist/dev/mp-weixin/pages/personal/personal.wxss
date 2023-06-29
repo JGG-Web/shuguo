@@ -1,0 +1,141 @@
+.personalColor {
+  background-color: #f5f5f5;
+}
+.personalColor .personal .header {
+  position: relative;
+  display: flex;
+  height: 300rpx;
+  line-height: 200rpx;
+  background-color: #eed7b5;
+}
+.personalColor .personal .header .btn-logo {
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.personalColor .personal .header .img {
+  height: 100rpx;
+  width: 100rpx;
+  vertical-align: middle;
+  margin: 50rpx;
+}
+.personalColor .personal .header .exit {
+  position: absolute;
+  right: 0;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #f2a900;
+}
+.personalColor .personal .facilitate {
+  width: 100%;
+  padding-bottom: 1rpx;
+}
+.personalColor .personal .facilitate .my-box {
+  width: 96%;
+  margin: 20rpx auto;
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding-top: 10rpx;
+}
+.personalColor .personal .facilitate .my-box .box-name {
+  font-weight: 600;
+  margin: 0 20rpx;
+}
+.personalColor .personal .facilitate .collect {
+  padding-bottom: 10rpx;
+}
+.personalColor .personal .facilitate .collect .box-content1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -20rpx 20rpx 20rpx;
+}
+.personalColor .personal .facilitate .collect .box-content1 .content1-text {
+  margin-top: 30rpx;
+  font-size: 22rpx;
+  color: #666;
+}
+.personalColor .personal .facilitate .collect .box-content1 .btn-collect {
+  width: 260rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-weight: 600;
+  font-size: 30rpx;
+  color: #fff;
+  text-align: center;
+  background-color: #f2a900;
+}
+.personalColor .personal .facilitate .ability {
+  height: 360rpx;
+}
+.personalColor .personal .facilitate .ability .content2-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+.personalColor .personal .facilitate .ability .content2-box .small-box {
+  text-align: center;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+}
+.personalColor .personal .facilitate .ability .content2-box .small-box image {
+  width: 50%;
+  margin: 0 auto;
+  height: 100rpx;
+}
+.personalColor .personal .facilitate .ability .content2-box .small-box text {
+  font-size: 26rpx;
+}
+.personalColor .personal .facilitate .service {
+  height: 220rpx;
+}
+.personalColor .personal .facilitate .service .content3-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+.personalColor .personal .facilitate .service .content3-box .small-box {
+  text-align: center;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+}
+.personalColor .personal .facilitate .service .content3-box .small-box image {
+  width: 50%;
+  margin: 0 auto;
+  height: 100rpx;
+}
+.personalColor .personal .facilitate .service .content3-box .small-box text {
+  font-size: 26rpx;
+}
+.personalColor .personal .facilitate .collaborate {
+  height: 220rpx;
+}
+.personalColor .personal .facilitate .collaborate .content4-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10rpx;
+}
+.personalColor .personal .facilitate .collaborate .content4-box .small-box {
+  text-align: center;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+}
+.personalColor .personal .facilitate .collaborate .content4-box .small-box image {
+  width: 50%;
+  margin: 0 auto;
+  height: 100rpx;
+}
+.personalColor .personal .facilitate .collaborate .content4-box .small-box text {
+  font-size: 26rpx;
+}
+

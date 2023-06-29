@@ -1,0 +1,42 @@
+.cateList .swiper {
+  height: 360rpx;
+}
+.cateList .swiper .swiper-item image {
+  height: 360rpx;
+  width: 100%;
+}
+.cateList .frontDesc {
+  font-size: 40rpx;
+  line-height: 80rpx;
+  color: #f2a900;
+  text-align: center;
+}
+.cateList .frontName {
+  font-size: 30rpx;
+  line-height: 40rpx;
+  color: #f4b626;
+  text-align: center;
+}
+.cateList .goodsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cateList .goodsList::after {
+  content: "";
+  width: 344rpx;
+}
+.cateList .goodsList .goodsItem {
+  width: 344rpx;
+  height: 480rpx;
+  margin-top: 18rpx;
+}
+.cateList .goodsList .goodsItem image {
+  width: 344rpx;
+  height: 344rpx;
+}
+.cateList .goodsList .goodsItem .goodsPrice {
+  color: #f00;
+  font-size: 36rpx;
+}
+

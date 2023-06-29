@@ -1,0 +1,73 @@
+.category .header {
+  padding: 20rpx 0;
+}
+.category .header .search {
+  width: 95%;
+  height: 60rpx;
+  color: #f2a900;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #efefef;
+  border-radius: 30rpx;
+}
+.category .content {
+  display: flex;
+  height: calc(100vh - 102rpx);
+  border-top: 2rpx solid #ffd700;
+}
+.category .content .left {
+  width: 20%;
+  height: 100%;
+  border-right: 2rpx solid #f2a900;
+}
+.category .content .left .navScroll {
+  height: calc(100vh - 102rpx);
+}
+.category .content .left .navScroll .navItem {
+  position: relative;
+  height: 80rpx;
+  font-size: 27rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.category .content .left .navScroll .navItem.active::before {
+  position: absolute;
+  left: 10rpx;
+  top: 22rpx;
+  content: "";
+  width: 2rpx;
+  height: 40rpx;
+  background-color: #f2a900;
+}
+.category .content .right {
+  width: 80%;
+  height: calc(100vh - 102rpx);
+}
+.category .content .right .contentScroll {
+  height: 100%;
+}
+.category .content .right .contentScroll .cateImg {
+  display: block;
+  margin: 10rpx auto;
+  width: 520rpx;
+  height: 200rpx;
+}
+.category .content .right .contentScroll .goodsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.category .content .right .contentScroll .goodsList .goodsItem {
+  width: 33.33%;
+  height: 200rpx;
+  text-align: center;
+}
+.category .content .right .contentScroll .goodsList .goodsItem .goodsImg {
+  width: 77%;
+  height: 140rpx;
+}
+.category .content .right .contentScroll .goodsList .goodsItem .goodsName {
+  font-size: 24rpx;
+}
+

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/catagory/catagory",
+    "pages/personal/personal",
+    "pages/login/login",
+    "pages/detail/detail",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "蔬果外卖",
+    "navigationBarBackgroundColor": "#f2a900",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#f2a900",
+    "list": [
+      {
+        "iconPath": "/static/images/tabBar/tab-home.png",
+        "selectedIconPath": "/static/images/tabBar/tab-home-current.png",
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "/static/images/tabBar/tab-cate.png",
+        "selectedIconPath": "/static/images/tabBar/tab-cate-current.png",
+        "text": "商品分类",
+        "pagePath": "pages/catagory/catagory"
+      },
+      {
+        "iconPath": "/static/images/tabBar/tab-cart.png",
+        "selectedIconPath": "/static/images/tabBar/tab-cart-current.png",
+        "text": "购物车",
+        "pagePath": "pages/cart/cart"
+      },
+      {
+        "iconPath": "/static/images/tabBar/tab-my.png",
+        "selectedIconPath": "/static/images/tabBar/tab-my-current.png",
+        "text": "个人中心",
+        "pagePath": "pages/personal/personal"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
